@@ -13,15 +13,16 @@ main {
 h1, h2 { 
     color: chocolate;
     background-color: gray;
+    font-size: 3em;
     }
 
-    header {
-        display: flex;
+header {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     color: darkred;
     background-color: gray;
-    font-size: 2em;
+    font-size: 4em;
     font-weight: 600;
     padding: 10px;
 }
