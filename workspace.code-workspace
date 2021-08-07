@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\Web Project Start"
+		},
+		{
+			"path": "..\\Produkcja"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5503,
+		"liveServer.settings.multiRootWorkspaceName": "Produkcja"
+	}
+}
