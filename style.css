@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     text-align: center;
-    background-color: lightgray;
+    background-color: #7b5e7b74;
     width: 100%;
     font-size: 24px;
 }
@@ -12,6 +12,56 @@ main {
     align-content: center;
 }
 
+.container {
+    width: 100%;
+    padding: 1.25rem;  
+    margin-left: auto;
+    margin-right: auto;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 0.5rem;
+    border-style: solid;
+
+}
+
+@media (min-width:640px) {
+    .container {
+        max-width: 640px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 680px
+    }
+    .menu_item {
+        width: 19%
+    }
+}
+
+@media (min-width:1024px) {
+    .container {
+        max-width: 820px
+    }
+}
+
+@media (min-width:1280px) {
+    .container {
+        max-width: 924px
+    }
+}
+
+@media (min-width:1536px) {
+    .container {
+        max-width: 1080px
+    }
+}
+
+@media (max-width: 768px) {
+    .menu_item {
+        width: 100% }
+    }
+
 .article {
     display: inline-block;
     align-content: center;
@@ -20,25 +70,54 @@ main {
 
 .article p {
     font: 1em sans-serif;
-    color: indigo;
+    color: black;
     text-align: justify;
+    font-weight: 500;
+    font-style: italic;
 
 }
 
 h1, h2 { 
-    color: firebrick;
+    color: #1c0221;
     background-color: gray;
     font-size: 2em;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
     }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: darkred;
+    color:  #1c0221;;
     background-color: gray;
     font-size: 3em;
     font-weight: 600;
     padding: 10px;
+    border-radius: 0.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 60px;
+    /* background-color: rgba(0,0,0); */
+    /* border-color: gray; */
+    /* border-width: 2px;
+    border-radius: 0.5rem; */
+    /* padding: 2rem; */
+    /* border-style: solid; */
+    margin-top: 0.5rem;
+    /* margin-bottom: 1rem; */
+    /* opacity: 0.8; */
+}
+
+.menu_item {
+    background-color: grey;
+    border-radius: 0.5rem;
+    margin: 2px;
+    flex: 1 1 0;
+	width: 0;
 }
 
