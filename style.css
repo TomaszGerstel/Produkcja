@@ -58,7 +58,7 @@ main {
 .article {
     display: inline-block;
     align-content: center;
-    max-width: 650px;
+    max-width: 600px;
 }
 
 .article p {
@@ -81,6 +81,11 @@ h1, h2 {
     border-radius: 0.5rem;
     margin-top: 0.5rem;
     }
+
+h3 {
+    text-align: left;
+    font-size: 0.7em;
+}
 
 header {
     display: flex;
