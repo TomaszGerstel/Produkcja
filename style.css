@@ -21,6 +21,7 @@ main {
     border-width: 2px;
     border-radius: 0.5rem;
     border-style: solid;
+    text-size-adjust: none;
 }
 
 @media (min-width:768px) {
@@ -59,6 +60,7 @@ main {
     display: inline-block;
     align-content: center;
     max-width: 600px;
+    margin-bottom: 1.5rem;
 }
 
 .article p {
@@ -80,11 +82,13 @@ h1, h2 {
     font-size: 1.5em;
     border-radius: 0.5rem;
     margin-top: 0.5rem;
+    padding: 0.2em;
     }
 
 h3 {
     text-align: left;
-    font-size: 0.7em;
+    font-size: 1.2em;
+    margin-bottom: 2em;
 }
 
 header {
